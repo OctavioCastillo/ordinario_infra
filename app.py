@@ -13,7 +13,7 @@ def prueba():
 
 @app.route('/ordinario', methods=['GET'])
 def ordinario():
-    return jsonify({'mensaje': 'Prueba para video de ordianrio'}), 200
+    return jsonify({'mensaje': 'Prueba para video de ordinario'}), 200
 
 
 # Ejecución de la app
