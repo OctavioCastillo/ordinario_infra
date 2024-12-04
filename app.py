@@ -11,6 +11,11 @@ def saludo():
 def prueba():
     return jsonify({'mensaje': 'Repo actualizado correctamente'}), 200
 
+@app.route('/ordinario', methods=['GET'])
+def ordinario():
+    return jsonify({'mensaje': 'Prueba para video de ordianrio'}), 200
+
+
 # Ejecución de la app
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)
